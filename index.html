@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Pedro Henrique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    //titulo e links para acesso a página//
+    <header >
+        <nav class="container">
+            <div class="logo"> PH </div>
+            <ul class="nav-links">
+                <li> <a href="#sobre">Sobre </a></li>
+                <li> <a href="#skills"> Skills </a></li>
+                <li> <a href="#projetos"> Projetos </a></li>
+                <li> <a href="#contatos"> Contatos  </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre" class="dev container fade-in">
+            <div class="texto">
+                <h1>Pedro Henrique</h1>
+                <p>Desde que me interessei na área de programação, há 2 anos
+                    venho aprendendo programação e tenho certeza que estou
+                    pronto para somar na sua equipe de programadores. Tenho
+                    facilidade de aprendizado, ótima comunicação e em todos
+                    os momentos procuro me aprimorar cada vez mais.</p>
+                    <a class="botao-de-contato" href="#contato">Entre em contato</a>
+            </div>
+            <div class="imagem">
+                <img src="" class="perfil">
+
+            </div>
+        </section>
+        <section id="skills" class="container fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-item">
+                    <div class="skills-icon">&#128187;</div>
+                    <h3>FrontEnd </h3>
+                    <p>HTML, CSS e JavaScript</p>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-icon">&#128295;</div>
+                    <h3> BackEnd </h3>
+                    <p>Node.js, Java e C#</p>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-icon">&#128201;</div>
+                    <h3>Banco de Dados</h3>
+                    <p>Mysql e MongoDB</p>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-icon">&#128736;</div>
+                    <h3>Ferramentas </h3>
+                    <p>Git, GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projetos-card">
+                    <h3 class="titulo-projeto"> Formulário </h3>
+                    <p> Formulário para que o cliente possa preencher via web, depois de preenchido chegará diretamente no e-mail da empresa.</p>
+                    <div class="projeto-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="projetos-card">
+                    <h3 class="titulo-projeto"> Cárdapio On-line</h3>
+                    <p> Plataforma para uma hambuergueria que tem seu Cárdapio On-line e pode ser feito o pedido pelo sistema.</p>
+                    <div class="projeto-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-contato">Contate-me!</h2>
+            <form class="contato-form">
+                <div class="grupo-formulario">
+                    <label for="nome" > Nome </label>
+                    <input id="nome" name="nome" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensagem"> Menasagem </label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <button type="submit">Mandar mensagem</button>
+            </form>
+        </section>
+
+        <footer>
+            <ul class="icones-footer">
+                <li>&#128187;</li>
+                <li>&#128101;</li>
+                <li>&#128038;</li>
+            </ul>
+            <p>&copy; Pedro Henrique De Nelo Martins</p>
+        </footer>
+    </main>
+</body>
+</html>
